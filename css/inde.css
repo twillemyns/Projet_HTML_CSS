@@ -73,9 +73,17 @@ h1{
     font-size: xx-large;
 }
 
+.img1{
+    border-radius: 10px;
+    border: solid black 2px;
+    width: 550px;
+    
+}
+
 .img{
     border-radius: 10px;
     border: solid black 2px;
+    width: 550px;
     
 }
 
