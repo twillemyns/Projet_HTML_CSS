@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    font-family: roboto;
+}
+header{
+    height: 100px;
+    background-color: blue;
+}
+footer{
+    margin-top: 40px;
+    height: 150px;
+    background-color: blue;
+}
+section{
+    text-align: center;
+}
+#formulaire{
+    height: fit-content;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 20px;
+    width: fit-content;
+    margin: auto;
+    padding: 15px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: space-around;
+}
+label{
+    margin-top: 15px;
+}
+section p:first-child{
+    font-size: 30px;
+    text-decoration: underline;
+}
