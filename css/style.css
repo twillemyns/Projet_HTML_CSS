@@ -5,7 +5,7 @@
 /* HEADER */
 
 header {
-    width: 100vw;
+    width: 100%;
     height: 100px;
     background-color: rgb(24, 24, 24);
     display: flex;
@@ -14,7 +14,7 @@ header {
 }
 
 header img {
-    height: 40%;
+    width: 20%;
     margin-left: 50px;
 }
 
@@ -22,7 +22,9 @@ header img {
     width: 150px;
     height: 40px;
     color: blue;
-    margin-right: 60px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
 }
 
 button a{
@@ -30,14 +32,12 @@ button a{
 }
 
 #button_connexion {
-    margin-right: 30px;
-    border: none;
-    background-color: white;
+    margin-right: 20px;
 }
 
 #button_inscription {
+    margin-right: 60px;
     border: none;
-    background-color: white;
 }
 
 /* HEADER */
@@ -82,8 +82,8 @@ section h3 {
 
 article {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     width: 450px;
     margin: 10px;
@@ -124,35 +124,7 @@ article button {
     margin-top: 25px;
     margin-bottom: 30px;
     width: 200px;
-    height: 40p/* FOOTER */
-
-    footer {
-        width: 100vw;
-        height: 150px;
-        background-color: rgb(24, 24, 24);
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    
-    footer img {
-        margin-left: 50px;
-        height: 30%;
-    }
-    
-    ul button{
-        width: 120px;
-        height: 40px;
-        margin-left: 10px;
-        background-color: white;
-    }
-    
-    footer a {
-        color: blue;
-        text-decoration: none;
-    }
-    
-    /* FOOTER */x;
+    height: 40px;
     background-color: rgb(248, 24, 24);
     border: none;
 }
@@ -164,13 +136,14 @@ article button:hover {
     height: 40px;
     background-color: rgb(248, 24, 24);
     border: none;
+    cursor: pointer;
 }
 
 
 /* FOOTER */
 
 footer {
-    width: 100vw;
+    width: 100%;
     height: 150px;
     background-color: rgb(24, 24, 24);
     display: flex;

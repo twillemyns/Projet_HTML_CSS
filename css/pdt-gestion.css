@@ -1,12 +1,7 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-
 /* HEADER */
 
 header {
-    width: 100vw;
+    width: 100%;
     height: 100px;
     background-color: rgb(24, 24, 24);
     display: flex;
@@ -15,7 +10,7 @@ header {
 }
 
 header img {
-    height: 40%;
+    width: 20%;
     margin-left: 50px;
 }
 
@@ -23,7 +18,9 @@ header img {
     width: 150px;
     height: 40px;
     color: blue;
-    margin-right: 60px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
 }
 
 button a{
@@ -31,51 +28,30 @@ button a{
 }
 
 #button_connexion {
-    margin-right: 30px;
-    border: none;
-    background-color: white;
+    margin-right: 20px;
 }
 
 #button_inscription {
+    margin-right: 60px;
     border: none;
-    background-color: white;
 }
 
 /* HEADER */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
 section{
     font-family: roboto;
     font-weight: 300;
 }
 
-
-article{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    padding-top: 20px;
-    
-}
-
-.card{
-    /* border: solid black 2px; */
-    /* border-radius: 10px; */
-    width: 50vw;
-    padding: 20px;
-    margin-right: 50px;
-    text-align: center;
-    font-size:30px;
-}
-
 h1{
     text-align: center;
     font-size: xx-large;
-}
-
-.img{
-    border-radius: 10px;
-    border: solid black 2px;
-    
 }
 
 .img2{
@@ -86,9 +62,59 @@ h1{
 }
 
 .intro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro h1{
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+.intro p{
+    text-align: justify;
+    width: 1340px;
+    font-family: roboto;
+    font-weight: 400;
+}
+
+.card{
+    width: 50vw;
+    font-size:30px;
     text-align: center;
-    font-size: x-large;
-    
+}
+
+article{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+article img{
+    margin-right: 50px;
+    margin-left: 50px;
+    border: solid 3px black;
+    width: 35%;
+}
+
+article h3{
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 0%;
+}
+
+article p{
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: justify;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 hr{
@@ -99,14 +125,13 @@ hr{
 .video{
     text-align: center ;
     font-size: x-large;
-    margin-bottom: 15px;
-    
+    margin-bottom: 30px;
 }
 
 /* FOOTER */
 
 footer {
-    width: 100vw;
+    width: 100%;
     height: 150px;
     background-color: rgb(24, 24, 24);
     display: flex;
