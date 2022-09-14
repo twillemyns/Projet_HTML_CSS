@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 /* HEADER */
 
 header {
@@ -38,77 +42,67 @@ button a{
 
 /* HEADER */
 
-body{
-    margin: 0;
-    padding: 0;
-}
-
-
-section{
+section {
     font-family: roboto;
     font-weight: 300;
 }
 
-h1{
+h1 {
     text-align: center;
-    font-size: xx-large;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.img2{
-    border-radius: 10px;
-    border: solid black 2px;
-    width: 544px;
-    
-}
 
-.intro{
+.intro {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.intro h1{
+.intro h1 {
     font-family: roboto;
     font-weight: 700;
     font-size: 2rem;
     margin-top: 50px;
 }
 
-.intro p{
+.intro p {
     text-align: justify;
     width: 1340px;
     font-family: roboto;
     font-weight: 400;
 }
 
-.card{
+.card {
     width: 50vw;
-    font-size:30px;
+    font-size: 30px;
     text-align: center;
 }
 
-article{
+article {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-article img{
+article img {
     margin-right: 50px;
     margin-left: 50px;
     border: solid 3px black;
     width: 35%;
 }
 
-article h3{
+article h3 {
     font-family: roboto;
     font-weight: 700;
     font-size: 1.5rem;
     margin-top: 0%;
 }
 
-article p{
+article p {
     font-family: roboto;
     font-weight: 400;
     font-size: 1rem;
@@ -117,13 +111,13 @@ article p{
     padding-left: 50px;
 }
 
-hr{
+hr {
     height: 1px;
     background-color: black;
 }
 
-.video{
-    text-align: center ;
+.video {
+    text-align: center;
     font-size: x-large;
     margin-bottom: 30px;
 }
@@ -144,7 +138,7 @@ footer img {
     height: 30%;
 }
 
-ul button{
+ul button {
     width: 120px;
     height: 40px;
     margin-left: 10px;
