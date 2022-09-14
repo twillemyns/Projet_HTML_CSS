@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/inscription.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+
+    <header>
+
+        <img src="../images/logoInGameWhite.png" alt="Logo du site">
+
+        <div class="buttons_header">
+            <button id="button_connexion"> <a href="connection.html"> Connexion </a> </button>
+            <button id="button_inscription"> Inscription </button>
+        </div>
+
+    </header>
+
+    <section>
+        <p>Veuillez renseigner ces champs:</p>
+        <form action="post" id="formulaire">
+            <label for="nom">Votre nom:</label>
+            <input type="text" name="nom">
+            <label for="prenom">Votre prénom:</label>
+            <input type="text" name="prenom">
+            <label for="dateDeNaissance">Votre date de naissance:</label>
+            <input type="date" name="dateDeNaissance">
+            <label for="email">Votre adresse email:</label>
+            <input type="email" name="email">
+            <label for="telephone">Votre numéro de télephone:</label>
+            <input type="tel" name="telephone">
+            <label for="validation"></label>
+            <input type="submit" name="validation">
+        </form>
+    </section>
+
+    <footer>
+
+        <img src="../images/logoInGameWhite.png" alt="Logo du site">
+
+        <ul>
+           <button> <a href="">RPG</a> </button>
+           <button> <a href="">Indés</a> </button>
+           <button> <a href="">Stratégie</a> </button>
+        </ul>
+
+    </footer>
+
+</body>
+</html>
