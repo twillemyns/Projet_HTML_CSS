@@ -1,7 +1,51 @@
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 20%;
+    margin-left: 50px;
+}
+
+.buttons_header button {
+    width: 150px;
+    height: 40px;
+    color: blue;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+}
+
+#button_connexion {
+    margin-right: 20px;
+}
+
+#button_inscription {
+    margin-right: 60px;
+    border: none;
+}
+
+/* HEADER */
+
 body{
     margin: 0px;
     font-family: roboto;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2a1c9ee927fc414e0b56584ea540b2bf816281b6
 section{
     text-align: center;
 }
@@ -27,51 +71,10 @@ section p:first-child{
     margin-bottom: 90px;
 }
 
-/* HEADER */
-
-header {
-    width: 100vw;
-    height: 100px;
-    background-color: rgb(24, 24, 24);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header img {
-    height: 40%;
-    margin-left: 50px;
-}
-
-.buttons_header button {
-    width: 150px;
-    height: 40px;
-    color: blue;
-    margin-right: 60px;
-}
-
-button a{
-    text-decoration: none;
-}
-
-#button_connexion {
-    margin-right: 30px;
-    border: none;
-    background-color: white;
-}
-
-#button_inscription {
-    border: none;
-    background-color: white;
-}
-
-/* HEADER */
-
-
 /* FOOTER */
 
 footer {
-    width: 100vw;
+    width: 100%;
     height: 150px;
     background-color: rgb(24, 24, 24);
     display: flex;
