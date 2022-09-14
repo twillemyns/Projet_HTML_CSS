@@ -1,0 +1,70 @@
+/* HEADER */
+
+header {
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 40%;
+    margin-left: 50px;
+}
+
+.buttons_header button {
+    width: 150px;
+    height: 40px;
+    color: blue;
+    margin-right: 60px;
+}
+
+button a{
+    text-decoration: none;
+}
+
+#button_connexion {
+    margin-right: 30px;
+    border: none;
+    background-color: white;
+}
+
+#button_inscription {
+    border: none;
+    background-color: white;
+}
+
+/* HEADER */
+
+
+/* FOOTER */
+
+footer {
+    width: 100vw;
+    height: 150px;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer img {
+    margin-left: 50px;
+    height: 30%;
+}
+
+ul button{
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* FOOTER */
