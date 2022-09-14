@@ -22,10 +22,17 @@ header img {
 .buttons_header button {
     width: 150px;
     height: 40px;
-    color: blue;
+    color: rgb(red, green, blue);
     border: none;
+    border-radius: 1mm;
+    font-size: 0.9rem;
+    font-family: roboto;
     background-color: white;
     cursor: pointer;
+}
+
+.buttons_header button:hover {
+    background-color: rgb(235, 235, 235);
 }
 
 button a{
@@ -91,16 +98,19 @@ footer img {
     height: 30%;
 }
 
-ul button{
+ul button {
     width: 120px;
     height: 40px;
     margin-left: 10px;
     background-color: white;
+    border-radius: 1mm;
+    border: none;
 }
 
 footer a {
-    color: blue;
+    color: rgb(red, green, blue);
     text-decoration: none;
+    cursor: pointer;
 }
 
 /* FOOTER */

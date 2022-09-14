@@ -21,10 +21,17 @@ header img {
 .buttons_header button {
     width: 150px;
     height: 40px;
-    color: blue;
+    color: rgb(red, green, blue);
     border: none;
+    border-radius: 1mm;
+    font-size: 0.9rem;
+    font-family: roboto;
     background-color: white;
     cursor: pointer;
+}
+
+.buttons_header button:hover {
+    background-color: rgb(235, 235, 235);
 }
 
 button a{
@@ -89,12 +96,19 @@ article {
     margin: 10px;
     height: 500px;
     margin-bottom: 40px;
+    border-radius: 1mm;
+    border: solid 2px black;
 }
 
 article:hover {
-    border: solid 3px black;
     width: 750px;
+    margin: 10px;
+    height: 500px;
+    margin-bottom: 40px;
+    background-color: black;
+    color: white;
 }
+
 
 article h4 {
     font-family: roboto;
@@ -125,17 +139,18 @@ article button {
     margin-bottom: 30px;
     width: 200px;
     height: 40px;
-    background-color: rgb(248, 24, 24);
-    border: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 1mm;
+    color: white;
+    border: solid 2px white;
 }
 
 article button:hover {
     margin-top: 25px;
     margin-bottom: 30px;
-    width: 400px;
-    height: 40px;
-    background-color: rgb(248, 24, 24);
-    border: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: solid 2px black;
     cursor: pointer;
 }
 
@@ -156,16 +171,19 @@ footer img {
     height: 30%;
 }
 
-ul button{
+ul button {
     width: 120px;
     height: 40px;
     margin-left: 10px;
     background-color: white;
+    border-radius: 1mm;
+    border: none;
 }
 
 footer a {
-    color: blue;
+    color: rgb(red, green, blue);
     text-decoration: none;
+    cursor: pointer;
 }
 
 /* FOOTER */
