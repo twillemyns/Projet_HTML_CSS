@@ -48,7 +48,6 @@ body{
     margin: 0px;
     font-family: roboto;
 }
-
 section{
     text-align: center;
 }
@@ -70,7 +69,8 @@ label{
 }
 section p:first-child{
     font-size: 30px;
-    text-decoration: underline;
+    font-weight: 700;
+    margin-bottom: 90px;
 }
 
 /* FOOTER */
@@ -82,6 +82,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    position: absolute;
+    bottom: 0;
 }
 
 footer img {
@@ -105,3 +107,16 @@ footer a {
 }
 
 /* FOOTER */
+
+@media screen and (max-width: 500px) {
+    header img {
+        height: 20%;
+        margin-left: 20px;
+    }
+    .buttons_header button {
+        width: 150px;
+        height: 40px;
+        color: blue;
+        margin-right: 10px;
+    }
+}
