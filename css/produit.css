@@ -122,6 +122,11 @@ hr {
     margin-bottom: 30px;
 }
 
+iframe{
+    width:560px; 
+    height:315px;
+}
+
 /* FOOTER */
 
 footer {
@@ -151,3 +156,51 @@ footer a {
 }
 
 /* FOOTER */
+
+
+
+@media screen and (min-width:300px ) and (max-width: 780px){
+
+    article{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    article h3{
+
+        width: 380px;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    article p{
+
+        width: 280px;
+        text-align: center;
+    }
+
+    article img{
+        width: 280px;
+    }
+
+    .intro p{
+        width: 250px;
+    }
+
+    iframe{
+        width: 300px;
+        align-items: center
+        
+    }
+
+    .card1{
+        
+        flex-direction: column-reverse;
+    }
+    
+};
