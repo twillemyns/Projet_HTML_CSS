@@ -1,3 +1,8 @@
+body {
+    margin: 0px;
+    font-family: roboto;
+}
+
 /* HEADER */
 
 header {
@@ -30,7 +35,7 @@ header img {
     background-color: rgb(235, 235, 235);
 }
 
-button a{
+button a {
     text-decoration: none;
 }
 
@@ -110,14 +115,46 @@ footer a {
 /* FOOTER */
 
 @media screen and (max-width: 500px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     header img {
+        margin: auto;
+        display: flex;
+        margin-top: 8px;
+    }
+
+    .buttons_header {
+        margin-top: 10px;
+    }
+
+    #button_inscription {
+        margin-right: 0;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer img {
         height: 20%;
-        margin-left: 20px;
+        margin: 0%;
+        margin-top: 10px;
     }
-    .buttons_header button {
-        width: 150px;
-        height: 40px;
-        color: blue;
-        margin-right: 10px;
+
+    ul button {
+        width: 100px;
+        margin: 0;
     }
+
+    ul {
+        padding-left: 0px;
+    }
+
 }
