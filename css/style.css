@@ -187,3 +187,21 @@ footer a {
 }
 
 /* FOOTER */
+
+
+
+@media screen and (min-width:300px ) and (max-width: 780px){
+
+    #body_header p{
+
+        width: 250px;
+    };
+
+    .cards{
+
+        flex-direction: column;
+
+    
+    };   
+
+}
